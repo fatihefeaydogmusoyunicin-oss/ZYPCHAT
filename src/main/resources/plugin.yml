@@ -1,0 +1,18 @@
+name: ZYPCHAT
+version: 1.0.0
+main: zypchat.ZYPCHAT
+api-version: '1.21'
+author: Sen
+description: Gelismis Turkce sohbet koruma eklentisi.
+commands:
+  zypchat:
+    description: ZYPCHAT yonetim komutu
+    aliases: [zy, zcg]
+    permission: zypchat.admin
+permissions:
+  zypchat.admin:
+    description: Yonetici yetkisi
+    default: op
+  zypchat.bypass:
+    description: Filtreleri atlar
+    default: op
